@@ -5,7 +5,7 @@ import { Box, Card, Cards, Container } from "./style";
 export const Hammasi = () => {
   return (
     <Container>
-      <Container.Title>Все пиццы</Container.Title>
+      <Container.Title>пиццы</Container.Title>
       <Card>
         {pizza.map((item) => {
           return (

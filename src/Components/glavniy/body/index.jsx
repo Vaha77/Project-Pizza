@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Routes, Route, Outlet } from "react-router-dom";
+import { Routes, Route, Outlet } from "react-router-dom";
 import { head } from "../../../utils/HeadData";
 import Achiq from "../../achiq";
 import Hammasi from "../../barcha";
@@ -7,7 +7,7 @@ import Bekuq from "../../bekuq";
 import Gosht from "../../gosht";
 import Gril from "../../gril";
 import Vegi from "../../vegeteryan";
-import { Conatiner, Kotegoriya, Links } from "./style";
+import { Conatiner, Links } from "./style";
 // const setActive = ({isActive})=>
 
 export const Body = () => {
