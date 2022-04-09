@@ -1,11 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOMClient from "react-dom/client";
 import "./index.css";
 import Root from "./root/imdex";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Root />
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+const root = ReactDOMClient.createRoot(document.getElementById("root"));
+root.render(<Root />);
