@@ -11,8 +11,8 @@ export const Glavniy = () => {
         <Navbar />
         <Container.Border />
       </Container.Nav>
-
       <Body />
+      ss
     </Container>
   );
 };

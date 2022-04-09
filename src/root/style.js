@@ -5,7 +5,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   background: #e5e5e5;
-  height: 100vh;
+  /* height: 100vh; */
   @media (max-width: 768px) {
     padding: 0px;
   }
