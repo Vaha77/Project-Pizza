@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.51c98c78.css",
+    "main.js": "/static/js/main.ae7a6b10.js",
+    "static/media/krvertki.png": "/static/media/krvertki.499eed4adc76e318b4d9.png",
+    "static/media/seplonik.png": "/static/media/seplonik.269df91a49d5ac0f64e0.png",
+    "static/media/chizBurger.png": "/static/media/chizBurger.a479701a7d26ec82edf2.png",
+    "static/media/chiz.png": "/static/media/chiz.0bf73f131128342aec35.png",
+    "static/media/karzinka.svg": "/static/media/karzinka.d05720f2b474db2145233cd2ce1d4e91.svg",
+    "index.html": "/index.html",
+    "main.51c98c78.css.map": "/static/css/main.51c98c78.css.map",
+    "main.ae7a6b10.js.map": "/static/js/main.ae7a6b10.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51c98c78.css",
+    "static/js/main.ae7a6b10.js"
+  ]
+}
