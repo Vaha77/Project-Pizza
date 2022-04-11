@@ -16,6 +16,7 @@ export const Hammasi = () => {
                 <Box.Wrap>
                   <Box.Title>{item.desc}</Box.Title>
                   <Box.Title>{item.desc2}</Box.Title>
+                  <button>dabavit</button>
                 </Box.Wrap>
               </Box>
             </Cards>
