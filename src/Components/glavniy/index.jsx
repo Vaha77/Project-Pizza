@@ -7,12 +7,10 @@ export const Glavniy = () => {
   return (
     <Container>
       <Container.Nav>
-        {" "}
         <Navbar />
         <Container.Border />
       </Container.Nav>
       <Body />
-      ss
     </Container>
   );
 };
