@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { pizza } from "../../utils/Data";
 import { Box, Card, Cards, Container } from "./style";
 
-export const Hammasi = () => {
+export const Hammasi = (vaha) => {
+  const [count, setCount] = useState(0);
+  const hendelClick = () => {
+    setCount(count + 1);
+  };
+
   return (
     <Container>
       <Container.Title>пиццы</Container.Title>
@@ -16,7 +21,8 @@ export const Hammasi = () => {
                 <Box.Wrap>
                   <Box.Title>{item.desc}</Box.Title>
                   <Box.Title>{item.desc2}</Box.Title>
-                  <button>dabavit</button>
+                  <button onClick={() => hendelClick()}>dabavit</button>
+                  <h1>{count}</h1>
                 </Box.Wrap>
               </Box>
             </Cards>

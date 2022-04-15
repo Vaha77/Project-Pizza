@@ -2,7 +2,7 @@ import React from "react";
 import { Btn, Container, Logo } from "./style";
 import logo from "../../../assets/imgs/logo.png";
 import Kazinka from "../../../assets/icons/karzinka.svg";
-export const Navbar = () => {
+export const Navbar = (vaha) => {
   return (
     <Container>
       <Logo>
@@ -19,7 +19,7 @@ export const Navbar = () => {
         <Btn.Border />
         <Btn.Right>
           <Btn.Img src={Kazinka} alt="karzinka" />
-          <span>3</span>
+          <span>{vaha.count}</span>
         </Btn.Right>
       </Btn>
     </Container>
